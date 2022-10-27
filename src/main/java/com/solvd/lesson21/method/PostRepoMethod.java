@@ -12,7 +12,7 @@ import com.qaprosoft.carina.core.foundation.api.http.HttpMethodType;
 @ResponseTemplatePath(path = "/api/users/post/rs.json")
 public class PostRepoMethod extends AbstractApiMethodV2 {
 
-    public PostRepoMethod () {
+    public PostRepoMethod() {
         ignorePropertiesProcessor(NotStringValuesProcessor.class);
     }
 }

@@ -8,7 +8,7 @@ import com.qaprosoft.carina.core.foundation.api.http.HttpMethodType;
 @Endpoint(url = "${config.env.url}/repos/eshumovich/Test-Postman1", methodType = HttpMethodType.DELETE)
 public class DeleteRepoMethod extends AbstractApiMethodV2 {
 
-    public DeleteRepoMethod () {
+    public DeleteRepoMethod() {
         ignorePropertiesProcessor(NotStringValuesProcessor.class);
     }
 }

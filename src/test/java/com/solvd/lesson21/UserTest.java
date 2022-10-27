@@ -38,7 +38,6 @@ public class UserTest {
                 .<String>withPredicate("nodeIdPredicate", nodeId -> nodeId.contains("_"))
                 .<Integer>withPredicate("idPredicate", id -> id > 1);
 
-
         postRepoMethod.expectResponseStatus(HttpResponseStatusType.CREATED_201);
         postRepoMethod.validateResponse(comparatorContext);
     }
